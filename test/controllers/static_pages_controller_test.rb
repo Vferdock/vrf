@@ -1,0 +1,19 @@
+require 'test_helper'
+
+class StaticPagesControllerTest < ActionController::TestCase
+  test "should get Home" do
+    get :Home
+    assert_response :success
+  end
+
+  test "should get Help" do
+    get :Help
+    assert_response :success
+  end
+
+  test "should get Articles" do
+    get :Articles
+    assert_response :success
+  end
+
+end
